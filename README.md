@@ -108,7 +108,9 @@ This line creates a connection to the WINDOWS MANAGEMENT INSTRUMENTATION (WMI) �
 
 _Check the in-depth WriteUp on Medium:_https://medium.com/@AtlasCyberSec/malicious-vba-letsdefend-challenge-64b3676d887f
 
-### Closing Thoughts
+-----------------
+
+## Closing Thoughts
 From this lab, I learned how malicious VBA macros embedded in Office documents can be used to silently download and execute malware on a victim’s system. The macro leverages obfuscation techniques — like hex-encoded strings and confusing variable names — to hide critical details such as URLs and file paths, helping it evade detection. It also uses Windows-native components, specifically MSXML2.ServerXMLHTTP.6.0 to establish HTTP connections and download the payload, and ADODB.Stream to write the malicious file to disk. For execution, the macro employs WMI (Win32_Process) to launch the payload stealthily with no visible window, falling back on WScript if needed.
 
 This lab demonstrated how attackers use built-in Windows features and obfuscation together to create effective and hard-to-detect malware delivery mechanisms within seemingly innocent documents.
