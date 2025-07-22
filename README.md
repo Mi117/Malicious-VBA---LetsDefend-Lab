@@ -73,11 +73,11 @@ By starting to decode the hexadecimal values of the strings, we start to reveal 
 
 <img width="1915" height="1075" alt="answer 1 - method 2" src="https://github.com/user-attachments/assets/46f66101-c341-4aa5-b25d-43dadd4daa6f" />
 
-(Answering previous question 1 - decoding hexadecimal values)
+_(Answering previous question 1 - decoding hexadecimal values)_
 
 <img width="1917" height="1079" alt="answer 2" src="https://github.com/user-attachments/assets/ea67acac-59c3-4ff5-880c-e44248296b42" />
 
-(Answer of Question 2) 
+_(Answer of Question 2) _
 
 The payload is **dropped.exe**
 
