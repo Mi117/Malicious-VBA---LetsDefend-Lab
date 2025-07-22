@@ -72,13 +72,15 @@ We can clearly see that many variables are split into hexadecimal code, which at
 By starting to decode the hexadecimal values of the strings, we start to reveal valuable information, as well as our answer:
 
 <img width="1915" height="1075" alt="answer 1 - method 2" src="https://github.com/user-attachments/assets/46f66101-c341-4aa5-b25d-43dadd4daa6f" />
+
 (Answering previous question 1 - decoding hexadecimal values)
 
 <img width="1917" height="1079" alt="answer 2" src="https://github.com/user-attachments/assets/ea67acac-59c3-4ff5-880c-e44248296b42" />
+
 (Answer of Question 2) 
 
-The payload is **dropped.exe
-**
+The payload is **dropped.exe**
+
 ### Q3) What method is it using to establish an HTTP connection between files on the malicious web server?
 
 We keep on decoding the values to find the next answer:
